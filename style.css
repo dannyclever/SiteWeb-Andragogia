@@ -67,5 +67,7 @@ img {
     width: 56px;
     height: 56px;
     float: left;
-    background: url()
+    background: url(./img/logo_andragogia.png) center center/56px no-repeat;
+    font-size: 0;
 }
+
