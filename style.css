@@ -44,3 +44,28 @@ img {
 .bg-white {
     background-color: #fff;
 }
+/*=========== HELPERS ==========*/
+.radius {
+    border-radius: 7px;
+}
+/* CABEÇALHO */
+.options {
+    animation: 15s Gradient ease 2s infinite;
+    background: linear-gradient(90deg,rgba(238,49,36,1) 0%,rgba(0,84,166,1) 100%);
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: #363636;
+}
+
+.cabecalho ul li a {
+    font-weight: 600!important;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url()
+}
