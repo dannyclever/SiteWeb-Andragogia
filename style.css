@@ -33,3 +33,14 @@ img {
     text-align: center;
 }
 /*=========== BG COLORS ==========*/
+.bg-gradient {
+    background-color: #363636;
+}
+
+.bg-black {
+    background-color: #fff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
