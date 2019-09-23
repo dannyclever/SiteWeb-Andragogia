@@ -91,7 +91,11 @@ img {
     left: 0;
 }
 
-.menu {
-    
+.btn-close {
+   font-size: 1.5em;
+   color: #fff;
+   float: right;
+   cursor: pointer;
+   margin: 2% 3% 0 O;
 }
 
