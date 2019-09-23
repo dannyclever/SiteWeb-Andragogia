@@ -90,7 +90,6 @@ img {
     top: 0;
     left: 0;
 }
-
 .btn-close {
    font-size: 1.5em;
    color: #fff;
@@ -98,4 +97,58 @@ img {
    cursor: pointer;
    margin: 2% 3% 0 O;
 }
-
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+ }
+ .menu li {
+    padding: 1.5%;
+ }
+ .menu ul a {
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+ }
+ .menu ul a:hover {
+    border: 1px solid #da6709;
+ }
+ /* BANNER */
+ .banner {
+    background: url(./img/banner.png) no-repeat fixed;
+ }
+ .title {
+    width: 100%;
+ }
+ .title h2 {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 700;
+ }
+ .title h3 {
+    font-size: 1.5em;
+    color: #fff;
+ }
+ .buttons {
+    width: 100%;
+    margin-top: 2%;
+ }
+ .buttons i {
+    float: right;
+ }
+ .btn {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+ }
+ .btn-cadastrar {
+    color: #130400;
+ }
+ .btn-sobre {
+    color: #130400;
+    margin-top: 2%;
+ }
+ /* NEWSLETTER */
+ 
