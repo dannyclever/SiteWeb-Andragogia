@@ -202,3 +202,10 @@ img {
    cursor: pointer;
    margin-top: 2%;
 }
+.bg-ivry {
+   animation: 15s Gradient ease 2s infinite;
+   background: linear-gradient(90deg,rgba(238,49,36,1) 0%,rgba(0,84,166,1) 100%);
+}
+.buttons {
+   margin: 0 auto; 
+}
