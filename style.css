@@ -233,3 +233,7 @@ img {
 }
 /* ========== MOBILE FIRST ==========*/
 /* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+   .logo {width: 214px; background: url(../img/logo_andragogia.png) center center/214px no-repeat;}
+   .btn {font-size: 2em;}
+}
