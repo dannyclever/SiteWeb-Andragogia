@@ -273,3 +273,42 @@ img {
    display: inline-block;
  }
 }
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+   .title {
+      width: 70%; 
+      float: left; 
+      text-align: left;
+   }
+   .title h2 {
+      font-size: 3em;
+      width: 250px; 
+      animation: 15s Gradient ease 2s infinite;
+      background: linear-gradient(90deg,rgba(238,49,36,1) 0%,rgba(0,84,166,1) 100%);
+   }
+   .title h3 {
+      font-size: 2em;
+   }
+   .buttons {
+      width: 40%; 
+      margin: 0 auto; 
+      margin-top: 0; 
+   }
+   .service {
+      width: 32%; 
+   }
+   .service:nth-child(2){
+      margin-right: 2%;
+   }
+   .service:nth-child(3){
+      margin-right: 0;
+   }
+   .newsletter .btn-cadastrar {
+      width: 28%; 
+      float: none;
+   }
+   .newsletter .btn-sobre {
+      width: 28%; 
+      float: none;
+   }
+   }
