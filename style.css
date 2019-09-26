@@ -178,24 +178,24 @@ img {
     line-height: 1.5em;
  }
  /* NEWSLETTER */
- .newsletter h2 {
+ .partners h2 {
    font-size: 1.5em;
    color: #fff;
    font-weight: 700;
 }
-.newsletter h3 {
+.partners h3 {
    color: #fff;
 }
-.newsletter form {
+.partners form {
    margin-top: 2%;
 }
-.newsletter .btn-cadastrar {
+.partners .btn-cadastrar {
    width: 100%;
    color: #130400;
    border: 1px solid rgba(255, 255, 255, 0.3);
    padding: 5%;
 }
-.newsletter .btn-sobre {
+.partners .btn-sobre {
    width: 100%;
    color: #130400;
    padding: 5%;
@@ -209,3 +209,27 @@ img {
 .buttons {
    margin: 0 auto; 
 }
+/* RODAPÉ */
+.social-icons a {
+   font-size: 1.5em; 
+   color: rgba(255,255,255,0.7); 
+   margin-right: 3%;
+}
+.social-icons a:last-child {
+   margin-right: 0;
+}
+.social-icons a:hover {
+   color: rgb(255,255,255);
+}
+.copyright {
+   color: rgba(255, 255, 255, 0.7); 
+   margin-top:2%;
+}
+#suivez {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px; 
+    font-weight: 600;
+}
+/* ========== MOBILE FIRST ==========*/
+/* SMALL DEVICES - SMARTPHONES */
