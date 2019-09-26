@@ -236,7 +236,7 @@ img {
 @media screen and (min-width: 480px) {
 .logo {
       width: 214px; 
-      background: url(../img/logo_andragogia.png) center center/214px no-repeat;
+      background: url(./img/logo_andragogia.png) center center/214px no-repeat;
 }
 
 .btn {
@@ -312,3 +312,34 @@ img {
       float: none;
    }
    }
+   /* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+   .btn-menu {
+      display: none;
+   }
+   .btn-close {
+      display: none;
+   }
+   .menu {
+      width: auto; 
+      height: 56px; 
+      line-height: 56px; 
+      float: right; 
+      background-color: #363636; 
+      display: block !important; 
+      position: static;
+   }
+   .menu li {
+      padding: 0; 
+      float: left;
+   }
+   .menu li a {
+      background-color: #363636; 
+      font-size: 1em; 
+      padding: 15px;
+   }
+   .menu li a:hover {
+      border: none; 
+      color: rgba(238,49,36,1); 
+   }
+}
